@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    
+}
+.intro-image {
+    background-image: url("../img/candle.jpg");
+    background-attachment: fixed;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: bottom;
+}
+
+.intro-image__text a {
+    background-color: #3d463c91;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: beige;
+    padding: 1rem;
+    transition: all 1s ease-in-out;
+
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    height: 350px;
+    background-color: #3d463c;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;  
+}
+
+.intro-text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.text-solid {
+   color: beige;
+
+}
+
+.packaging-image {
+    height: 450px;
+    background-image: url('../img/packaging.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.packaging-image__text a {
+    background-color: #3d463ca2;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: beige;
+    padding: 1rem;
+    transition: all 1s ease-in-out; 
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.packaging-text {
+    height: 350px;
+    background-color: beige;
+    color: #313b33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    height: 450px;
+    background-image: url('../img/tutorial.jpg');
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.tutorials-image__text a {
+    background-color: #202122e3;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: beige;
+    padding: 1rem;
+    border: 2px solid #2224245e;
+    transition: all 1s ease-in-out; 
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 250px;
+    background-color: #222424;
+    color: rgb(214, 214, 192);
+    padding-top: 2rem;
+    font-size: 1.5rem; 
+}
+
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: rgb(214, 214, 192);
+    text-decoration: none;
+}
+
+.footer ul li:hover {
+    transform: scale(1.2);   
+}
